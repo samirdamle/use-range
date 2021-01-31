@@ -15,7 +15,7 @@ npm install --save use-ranges
 ```tsx
 import React, { useState } from 'react'
 
-import { useRange } from 'use-range'
+import useRange from 'use-range'
 
 const myRanges = [
     {
