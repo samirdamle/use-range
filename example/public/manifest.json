@@ -1,8 +1,8 @@
 {
-  "short_name": "use-ranges",
-  "name": "use-ranges",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+    "short_name": "use-range",
+    "name": "use-range",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
 }

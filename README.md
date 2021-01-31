@@ -1,13 +1,13 @@
-# use-ranges
+# use-range
 
 > React hook to return a matching range (from a list of ranges) for a given value.
 
-[![NPM](https://img.shields.io/npm/v/use-ranges.svg)](https://www.npmjs.com/package/use-ranges) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/use-range.svg)](https://www.npmjs.com/package/use-range) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save use-ranges
+npm install --save use-range
 ```
 
 ## Usage
