@@ -1,6 +1,6 @@
 {
     "name": "use-range",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "React hook to return a matching range (from a list of ranges) for a given value.",
     "author": "samirdamle",
     "license": "MIT",
@@ -13,6 +13,9 @@
         "node": ">=8",
         "npm": ">=5"
     },
+    "files": [
+        "dist/index.js"
+    ],
     "scripts": {
         "test": "cross-env CI=1 react-scripts test --env=jsdom",
         "test:watch": "react-scripts test --env=jsdom",
