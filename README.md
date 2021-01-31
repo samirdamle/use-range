@@ -22,32 +22,27 @@ const myRanges = [
         id: 'very_low',
         min: -100,
         title: 'Very Low',
-        color: 'hsl(0, 80%, 50%)',
     },
     {
         id: 'low',
         min: 100,
         title: 'Low',
-        color: 'hsl(30, 80%, 50%)',
     },
     {
         id: 'medium',
         min: 150,
         title: 'Medium',
-        color: 'hsl(60, 80%, 50%)',
     },
     {
         id: 'high',
         min: 350,
         title: 'High',
-        color: 'hsl(90, 70%, 50%)',
     },
     {
         id: 'very_high',
         min: 450,
         max: 500,
         title: 'Very High',
-        color: 'hsl(120, 50%, 50%)',
     },
 ]
 
