@@ -1,10 +1,10 @@
 {
-  "name": "use-ranges",
-  "version": "1.0.0",
+  "name": "use-range",
+  "version": "0.1.0",
   "description": "React hook to return a matching range (from a list of ranges) for a given value.",
   "author": "samirdamle",
   "license": "MIT",
-  "repository": "samirdamle/use-ranges",
+  "repository": "samirdamle/use-range",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
