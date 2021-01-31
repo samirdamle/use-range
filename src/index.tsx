@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export const useMyHook = () => {
+export const useRange = () => {
     let [{ counter }, setState] = React.useState<{
         counter: number
     }>({

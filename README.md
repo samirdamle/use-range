@@ -15,15 +15,11 @@ npm install --save use-ranges
 ```tsx
 import * as React from 'react'
 
-import { useMyHook } from 'use-ranges'
+import { useRange } from 'use-ranges'
 
 const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>
-      {example}
-    </div>
-  )
+    const example = useRange()
+    return <div>{example}</div>
 }
 ```
 
