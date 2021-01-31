@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './styles.css'
-import useRange from './use-range'
+import useRange from 'use-range'
 
 const myRanges = [
     {
