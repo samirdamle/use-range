@@ -19,42 +19,47 @@ import { useRange } from 'use-range'
 
 const myRanges = [
     {
-        id: 'VERY_LOW',
-        title: 'Very low',
-        min: 0,
+        id: 'very_low',
+        min: -100,
+        title: 'Very Low',
+        color: 'hsl(0, 80%, 50%)',
     },
     {
-        id: 'LOW',
+        id: 'low',
+        min: 100,
         title: 'Low',
-        min: 20,
+        color: 'hsl(30, 80%, 50%)',
     },
     {
-        id: 'MEDIUM',
+        id: 'medium',
+        min: 150,
         title: 'Medium',
-        min: 40,
+        color: 'hsl(60, 80%, 50%)',
     },
     {
-        id: 'HIGH',
+        id: 'high',
+        min: 350,
         title: 'High',
-        min: 60,
+        color: 'hsl(90, 70%, 50%)',
     },
     {
-        id: 'VERY_HIGH',
-        title: 'Very high',
-        min: 80,
-        max: 100,
+        id: 'very_high',
+        min: 450,
+        max: 500,
+        title: 'Very High',
+        color: 'hsl(120, 50%, 50%)',
     },
 ]
 
 const Example = () => {
-    const [value, setValue] = useState(0)
+    const [valueInput, setValueInput] = useState(0)
     const { range, rangeIndex, setValue } = useRange(myRanges)
     return (
         <div>
             <div>
-                Value: <input value={value} onChange={(evt) => setValue(evt.target.value)} />
+                Value: <input value={valueInput} onChange={(evt) => setValueInput(evt.target.value)} />
             </div>
-            {range && <div>Current range is: {range.title}</div>}
+            {range ? <div>Current range is: {range.title}</div> : <div>Out of range</div>}
         </div>
     )
 }
