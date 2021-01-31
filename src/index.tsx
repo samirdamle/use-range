@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React, { useEffect } from 'react'
 
 export const useRange = () => {
     let [{ counter }, setState] = React.useState<{
@@ -7,7 +7,7 @@ export const useRange = () => {
         counter: 0,
     })
 
-    React.useEffect(() => {
+    useEffect(() => {
         let interval = window.setInterval(() => {
             counter++
             setState({ counter })
